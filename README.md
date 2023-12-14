@@ -18,4 +18,3 @@ and then:
 7. Since each time an object is being vaidated to find a match, it is essential to pass the entire jsonArray to convert to csv, with the convertToCSV() function <br />
 8. Finally, a 'stackoverflow.csv' file is created and the new array is written into it. <br />
 9. In this manner, for every object, we can pass the object into the .csv file.
-# node-scraper
