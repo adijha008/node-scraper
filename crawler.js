@@ -73,8 +73,8 @@ async function append(jsonObj){
      // if match[0] valid
           // increment
      if(match[0]) match[0].count++;  // manipulation
-     // else
-          // append newobject to jsonArray
+     // or
+          // append
      else jsonArray = jsonArray.concat(jsonObj);
      
      // pass newly created array to add to .csv file
