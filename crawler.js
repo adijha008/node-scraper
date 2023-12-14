@@ -70,8 +70,8 @@ async function append(jsonObj){
           return obj.questionLink === jsonObj.questionLink;
      });
 
-     // if match[0] is valid
-          // increment count
+     // if match[0] valid
+          // increment
      if(match[0]) match[0].count++;  // manipulation
      // else
           // append newobject to jsonArray
@@ -82,7 +82,7 @@ async function append(jsonObj){
 
 }
 
-// function to write/append to .csv file
+// function to write/append to .csv
 async function convertToCSV(array){
      // get array string from parameter
      arr = array.map(it => {
